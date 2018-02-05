@@ -1,0 +1,66 @@
+html, body, ul, li, p, h1, h2, h3, h4, h5, h6, ol, dl, dt, dd, form, input {
+  margin: 0;
+  top: 0;
+}
+
+input, button {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sanjiao:after {
+  display: inline-block;
+  content: "";
+  height: 0;
+  width: 0;
+  border-top: 6px solid #FFFFDE;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  margin-left: 2px;
+}

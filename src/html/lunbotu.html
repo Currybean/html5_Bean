@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="../lib/jquery-3.2.1.min.js"></script>
+<script src="../lib/unslider.min.js"></script>
+<style>
+ul, ol { padding: 0;margin: 0;}
+.banner { position: relative; overflow: auto; text-align: center;}
+.banner li { list-style: none;}
+.banner ul li { float: left; }
+#b1 { width: 100%;}
+#b1 .dots { position: absolute; left:390px; bottom: 11px;}
+#b1 .dots li { 
+    background: #E8E8E8;
+    display: inline-block; 
+    width: 20px; 
+    height: 20px; 
+    margin: 0 4px; 
+    border: 2px solid #E8E8E8;
+    line-height: 20px; 
+    border-radius: 50%; 
+    cursor: pointer;  
+    color:#666666;
+}
+#b1 .dots li.active { 
+    background: #00B5FF;
+    border: 2px solid #00B5FF; 
+}
+#b1 ul li p{
+    margin: 0;
+    position:absolute;
+    left:0;
+    top: 0;
+    width: 241px;
+    height: 390px;
+    background: #B5E2FF;
+    padding-top:10px;
+}
+#b1 ul li .ban1_bp{ 
+    position:absolute;
+    left:1006px;
+    top: 0;
+}
+
+#b1 ul li .ban2_ap{ 
+    position:absolute;
+    left:1247px;
+    top: 0;
+    background: #FEEAF3;
+}
+#b1 ul li .ban2_bp{ 
+    position:absolute;
+    left:2253px;
+    top: 0;
+    background: #FEEAF3;
+}
+#b1 ul li .ban1_bp img,#b1 ul li .ban2_bp img{
+    float:left;
+}
+</style>
+</head>
+<body>
+    <div class="banner" id="b1">
+    <ul>
+        <li>
+        <img src="../img/ban1.jpg" height="400" width="765" alt="" />
+        <p class="ban1_ap"></p>
+        <p class="ban1_bp">
+            <img src="../img/ban11.jpg" height="130" width="190" alt="" />
+            <img src="../img/ban12.jpg" height="130" width="190" alt="" />
+            <img src="../img/ban13.jpg" height="130" width="190" alt="" />
+        </p>
+        </li>
+        <li>
+        <img src="../img/ban2.jpg" height="400" width="765" alt="" />
+        <p class="ban2_ap"></p>
+        <p class="ban2_bp">
+            <img src="../img/ban21.jpg" height="130" width="190" alt="" />
+            <img src="../img/ban22.jpg" height="130" width="190" alt="" />
+            <img src="../img/ban23.jpg" height="130" width="190" alt="" />
+        </p>
+        </li> 
+    </ul>
+</div>
+<script>
+$(document).ready(function(e) {
+    var unslider1 = $('#b1').unslider({
+        dots: true,
+        delay:1000
+    }),
+    data1 = unslider1.data('unslider');
+});
+</script>
+</body>
+</html>

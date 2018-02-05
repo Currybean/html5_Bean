@@ -4,7 +4,7 @@ var browserSync=require('browser-sync');
 
 gulp.task('comfile',function(){
     gulp.src('./src/sass/*.scss')
-    .pipe(sass({outputstyle:'expanded'}).on('error',sass.logError))
+    .pipe(sass({outputStyle:'expanded'}).on('error',sass.logError))
     .pipe(gulp.dest('./src/css/'))
 });
 gulp.task('jtsass',function(){

@@ -1,0 +1,1178 @@
+header .hp1 {
+  border-bottom: 1px solid #E0E0E0;
+  background: linear-gradient(to bottom, #fff, #E0E0E0);
+}
+
+header .hp1 .container {
+  line-height: 32px;
+  font-size: 12px;
+  height: 32px;
+}
+
+header .hp1 .container a {
+  color: #000;
+}
+
+header .hp1 .container ul li {
+  float: left;
+}
+
+header .hp1 .container ul li:last-child {
+  color: #FF1A3A;
+  font-size: 16px;
+  font-style: italic;
+}
+
+header .hp1 .container ul li:last-child .icon-dianhua {
+  color: #000;
+  font-style: normal;
+}
+
+header .hp1 .container ul li a {
+  padding: 0 12px;
+  border-right: 1px solid #E0E0E0;
+}
+
+header .hp1 .container ul li:nth-child(1) a {
+  padding-right: 18px;
+  background: url(../img/arr.gif) no-repeat 64px center;
+}
+
+header .hp1 .container ul li:nth-child(3) a {
+  border: 0 none;
+}
+
+header .h_box .container {
+  line-height: 32px;
+  font-size: 12px;
+  height: 90px;
+  position: relative;
+}
+
+header .h_box .container a {
+  color: #000;
+}
+
+header .h_box .container .logo {
+  display: block;
+  width: 150px;
+  height: 60px;
+  background: url("../img/logo.jpg") no-repeat 0px 0px;
+  position: absolute;
+  left: 36px;
+  top: 15px;
+}
+
+header .h_box .container .ser {
+  height: 68px;
+  width: 432px;
+  position: absolute;
+  left: 319px;
+  top: 22px;
+}
+
+header .h_box .container .ser input {
+  width: 364px;
+  height: 35px;
+  border: 2px solid #02A3F0;
+  padding-left: 12px;
+}
+
+header .h_box .container .ser button {
+  width: 66px;
+  height: 35px;
+  color: #fff;
+  background: #02A3F0;
+  border: 0 none;
+}
+
+header .h_box .container .ser button:hover {
+  cursor: pointer;
+}
+
+header .h_box .container .ser span {
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+header .h_box .container .ser a {
+  margin-right: 11px;
+  font-size: 12px;
+}
+
+header .h_box .container .ser a:hover {
+  color: #FF1A3A;
+  text-decoration: underline;
+}
+
+header .h_box .container .ser a:nth-child(2), header .h_box .container .ser a:nth-child(4) {
+  color: #FF1A3A;
+}
+
+header .h_box .container img {
+  position: absolute;
+  left: 860px;
+  top: 5px;
+  display: block;
+}
+
+header .h_box .container i {
+  text-align: center;
+  position: relative;
+  display: block;
+  background: #fff;
+  width: 195px;
+  height: 43px;
+  background: url("../img/detail_r2_c1.gif");
+  position: absolute;
+  left: 1005px;
+  top: 22px;
+  line-height: 43px;
+  z-index: 1000;
+}
+
+header .h_box .container i a {
+  font-style: normal;
+}
+
+header .h_box .container i a strong {
+  margin: 0 3px;
+  color: red;
+}
+
+header .h_box .container i span {
+  background: #fff;
+  display: block;
+  width: 292px;
+  height: 56px;
+  position: absolute;
+  top: 41px;
+  right: 1px;
+  display: none;
+  padding-left: 14px;
+  line-height: 56px;
+  font-style: normal;
+  border: 1px solid #ccc;
+}
+
+header .h_box .container i:hover {
+  background: url("../img/detail_r4_c1.gif") no-repeat;
+}
+
+header .h_box .container i:hover span {
+  display: block;
+}
+
+header .h_nav {
+  background: #121011;
+  width: 1263px;
+}
+
+header .h_nav .container {
+  height: 40px;
+}
+
+header .h_nav .container h1 {
+  position: relative;
+  height: 40px;
+  width: 230px;
+  background: #03ADEB;
+  text-align: center;
+}
+
+header .h_nav .container h1 .h1_a {
+  height: 40px;
+  width: 230px;
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+header .h_nav .container h1 #h1_nav2 {
+  z-index: 1000;
+  padding: 0px;
+  height: 637px;
+  width: 230px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li {
+  border-sizing: content-box;
+  height: 91px;
+  border-left: 1px solid #E7E7E7;
+  border-right: 2px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
+  padding-left: 20px;
+  background: #F8F8F8;
+  position: relative;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover {
+  background: #fff;
+  border-right: 0 none;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover .nav3_a {
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover .nav3_b {
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover .nav3_c {
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover .nav3_d {
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover .nav3_e {
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover .nav3_f {
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li:hover .nav3_g {
+  display: block;
+}
+
+header .h_nav .container h1 #h1_nav2 li strong {
+  font-style: bold;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+  line-height: 44px;
+  text-align: left;
+  background: url("../img/detail_r2_c5.gif") no-repeat left 182px top 16px;
+}
+
+header .h_nav .container h1 #h1_nav2 li strong a {
+  float: left;
+  display: block;
+  height: 40px;
+  color: #666666;
+  font-size: 12px;
+  padding-right: 12px;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 li strong a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 li .np1 {
+  width: 210px;
+  height: 44px;
+  line-height: 24px;
+}
+
+header .h_nav .container h1 #h1_nav2 li .np1 .redColor {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 li .np1 a {
+  float: left;
+  display: inline;
+  color: #666666;
+  font-size: 12px;
+  padding-right: 12px;
+  color: #666666;
+}
+
+header .h_nav .container h1 #h1_nav2 li .np1 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a {
+  width: 654px;
+  height: 649px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+  position: absolute;
+  left: 229px;
+  top: 0;
+  display: none;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 {
+  width: 420px;
+  height: 647px;
+  padding: 0 18px 0 14px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p {
+  padding-left: 6px;
+  padding-top: 10px;
+  height: 49px;
+  border-bottom: 1px dotted #ccc;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p:nth-child(1), header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p:nth-child(2), header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p:nth-child(8) {
+  height: 68px;
+  padding-top: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p a {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p a:first-child {
+  display: block;
+  height: 32px;
+  line-height: 25px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p a:first-child:hover {
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_1 .na_p a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_2 {
+  width: 232px;
+  height: 645px;
+  background: #F8F8F8;
+  padding: 24px 16px 0 16px;
+  text-align: left;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_2 h3 {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_2 a {
+  color: #666666;
+  width: 56px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_2 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_2 .redColor1 {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_2 i {
+  display: block;
+  width: 200px;
+  height: 187px;
+  margin-top: 392px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_a .na_2 i a {
+  display: block;
+  width: 200px;
+  height: 187px;
+  background: url("../img/na1.jpg");
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b {
+  width: 652px;
+  height: 502px;
+  background: #fff;
+  position: absolute;
+  left: 229px;
+  top: -22px;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+  display: none;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 {
+  width: 420px;
+  height: 502px;
+  padding: 0 18px 0 14px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p {
+  padding-left: 6px;
+  padding-top: 10px;
+  height: 49px;
+  border-bottom: 1px dotted #ccc;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p:nth-child(1), header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p:nth-child(4), header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p:nth-child(5) {
+  height: 68px;
+  padding-top: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p a {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p a:first-child {
+  display: block;
+  height: 32px;
+  line-height: 25px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p a:first-child:hover {
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_1 .nb_p a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_2 {
+  width: 230px;
+  height: 500px;
+  background: #F8F8F8;
+  padding: 24px 16px 0 16px;
+  text-align: left;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_2 h3 {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_2 a {
+  color: #666666;
+  width: 56px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_2 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_2 .redColor2 {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_2 i {
+  display: block;
+  width: 200px;
+  height: 187px;
+  margin-top: 238px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_b .nb_2 i a {
+  display: block;
+  width: 200px;
+  height: 187px;
+  background: url("../img/na2.jpg");
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c {
+  width: 652px;
+  height: 446px;
+  background: #fff;
+  position: absolute;
+  left: 229px;
+  top: -128px;
+  display: none;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_1 {
+  width: 420px;
+  height: 446px;
+  padding: 0 18px 0 14px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_1 .nc_p {
+  padding-left: 6px;
+  padding-top: 10px;
+  height: 49px;
+  border-bottom: 1px dotted #ccc;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_1 .nc_p a {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_1 .nc_p a:first-child {
+  display: block;
+  height: 32px;
+  line-height: 25px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_1 .nc_p a:first-child:hover {
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_1 .nc_p a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_2 {
+  width: 230px;
+  height: 443px;
+  background: #F8F8F8;
+  padding: 24px 16px 0 16px;
+  text-align: left;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_2 h3 {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_2 a {
+  color: #666666;
+  width: 56px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_2 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_2 .redColor2 {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_2 i {
+  display: block;
+  width: 200px;
+  height: 187px;
+  margin-top: 184px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_c .nc_2 i a {
+  display: block;
+  width: 200px;
+  height: 187px;
+  background: url("../img/na3.jpg");
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d {
+  width: 652px;
+  height: 462px;
+  background: #fff;
+  position: absolute;
+  left: 229px;
+  top: -190px;
+  display: none;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_1 {
+  width: 420px;
+  height: 462px;
+  padding: 0 18px 0 14px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_1 .nd_p {
+  padding-left: 6px;
+  padding-top: 10px;
+  height: 49px;
+  border-bottom: 1px dotted #ccc;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_1 .nd_p:nth-child(2) {
+  height: 68px;
+  padding-top: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_1 .nd_p a {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_1 .nd_p a:first-child {
+  display: block;
+  height: 32px;
+  line-height: 25px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_1 .nd_p a:first-child:hover {
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_1 .nd_p a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_2 {
+  width: 230px;
+  height: 460px;
+  background: #F8F8F8;
+  padding: 24px 16px 0 16px;
+  text-align: left;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_2 h3 {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_2 a {
+  color: #666666;
+  width: 56px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_2 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_2 .redColor2 {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_2 i {
+  display: block;
+  width: 200px;
+  height: 187px;
+  margin-top: 202px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_d .nd_2 i a {
+  display: block;
+  width: 200px;
+  height: 187px;
+  background: url("../img/na4.jpg");
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e {
+  width: 652px;
+  height: 402px;
+  background: #fff;
+  position: absolute;
+  left: 229px;
+  top: -180px;
+  display: none;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_1 {
+  width: 420px;
+  height: 402px;
+  padding: 0 18px 0 14px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_1 .ne_p {
+  padding-left: 6px;
+  padding-top: 10px;
+  height: 49px;
+  border-bottom: 1px dotted #ccc;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_1 .ne_p a {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_1 .ne_p a:first-child {
+  display: block;
+  height: 32px;
+  line-height: 25px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_1 .ne_p a:first-child:hover {
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_1 .ne_p a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_2 {
+  width: 230px;
+  height: 400px;
+  background: #F8F8F8;
+  padding: 24px 16px 0 16px;
+  text-align: left;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_2 h3 {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_2 a {
+  color: #666666;
+  width: 56px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_2 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_2 .redColor2 {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_2 i {
+  display: block;
+  width: 200px;
+  height: 187px;
+  margin-top: 152px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_e .ne_2 i a {
+  display: block;
+  width: 200px;
+  height: 187px;
+  background: url("../img/na5.jpg");
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f {
+  width: 652px;
+  height: 434px;
+  background: #fff;
+  position: absolute;
+  left: 229px;
+  top: -188px;
+  display: none;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_1 {
+  width: 420px;
+  height: 434px;
+  padding: 0 18px 0 14px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_1 .nf_p {
+  padding-left: 6px;
+  padding-top: 10px;
+  height: 49px;
+  border-bottom: 1px dotted #ccc;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_1 .nf_p:nth-child(1) {
+  height: 68px;
+  padding-top: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_1 .nf_p a {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_1 .nf_p a:first-child {
+  display: block;
+  height: 32px;
+  line-height: 25px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_1 .nf_p a:first-child:hover {
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_1 .nf_p a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_2 {
+  width: 230px;
+  height: 432px;
+  background: #F8F8F8;
+  padding: 24px 16px 0 16px;
+  text-align: left;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_2 h3 {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_2 a {
+  color: #666666;
+  width: 56px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_2 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_2 .redColor2 {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_2 i {
+  display: block;
+  width: 200px;
+  height: 187px;
+  margin-top: 182px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_f .nf_2 i a {
+  display: block;
+  width: 200px;
+  height: 187px;
+  background: url("../img/na6.jpg");
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g {
+  width: 652px;
+  height: 380px;
+  background: #fff;
+  position: absolute;
+  left: 229px;
+  top: -130px;
+  display: none;
+  border: 1px solid #ccc;
+  border-left: 0 none;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_1 {
+  width: 420px;
+  height: 380px;
+  padding: 0 18px 0 14px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_1 .ng_p {
+  padding-left: 6px;
+  padding-top: 10px;
+  height: 49px;
+  border-bottom: 1px dotted #ccc;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_1 .ng_p:nth-child(2) {
+  height: 68px;
+  padding-top: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_1 .ng_p a {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_1 .ng_p a:first-child {
+  display: block;
+  height: 32px;
+  line-height: 25px;
+  margin-right: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_1 .ng_p a:first-child:hover {
+  color: #000;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_1 .ng_p a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_2 {
+  width: 230px;
+  height: 378px;
+  background: #F8F8F8;
+  padding: 24px 16px 0 16px;
+  text-align: left;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_2 h3 {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 11px;
+  margin-bottom: 12px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_2 a {
+  color: #666666;
+  width: 56px;
+  float: left;
+  margin-right: 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_2 a:hover {
+  color: #03ADEB;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_2 .redColor2 {
+  color: red;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_2 i {
+  display: block;
+  width: 200px;
+  height: 187px;
+  margin-top: 128px;
+}
+
+header .h_nav .container h1 #h1_nav2 .nav3_g .ng_2 i a {
+  display: block;
+  width: 200px;
+  height: 187px;
+  background: url("../img/na7.jpg");
+}
+
+header .h_nav .container .nav_ul {
+  padding-left: 10px;
+}
+
+header .h_nav .container .nav_ul li {
+  float: left;
+}
+
+header .h_nav .container .nav_ul li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+
+header .h_nav .container .nav_ul li a:hover span {
+  color: #2ad0ff;
+}
+
+header .h_nav .container .nav_ul li a span {
+  font-size: 16px;
+  padding: 0 28px;
+  border-right: 1px solid #565656;
+}
+
+header .h_nav .container .nav_ul li:nth-child(1) a span {
+  color: #2ad0ff;
+}
+
+header .h_nav .container .nav_ul li:nth-child(8) a span {
+  border-right: 0 none;
+}
+
+header .h_nav .container .nav_ul li:nth-child(6) a span {
+  color: #FF1A3A;
+}
+
+header .h_nav .container .nav_ul li:nth-child(7) a span {
+  color: #FF1A3A;
+}
+
+footer {
+  height: 408px;
+  background: #F9F9F9;
+}
+
+footer .fo1 {
+  height: 202px;
+  padding: 26px 50px 0 60px;
+}
+
+footer .fo1 .fa {
+  width: 243px;
+  border-right: 1px solid #CCC;
+}
+
+footer .fo1 .fa .fa_p1 {
+  height: 49px;
+  padding-left: 75px;
+  padding-top: 8px;
+  background: url("../img/fo1.gif") no-repeat 0 0;
+}
+
+footer .fo1 .fa .fa_p1 span {
+  color: red;
+  display: block;
+  font-size: 15px;
+}
+
+footer .fo1 .fa .fa_p1 i {
+  font-size: 10px;
+  margin: 0 0 0 64px;
+  font-style: normal;
+}
+
+footer .fo1 .fa .fa_p2 {
+  height: 46px;
+  padding: 15px 0 9px 31px;
+  background: url("../img/sina.png") no-repeat 0 0;
+}
+
+footer .fo1 .fa .fa_p2 span {
+  font-size: 13px;
+  color: #666666;
+}
+
+footer .fo1 .fa .fa_p2 button {
+  width: 73px;
+  height: 21px;
+  background: #8CDF11;
+  color: #fff;
+  border: 0 none;
+  font-size: 12px;
+}
+
+footer .fo1 .fa .fa_p2 button:hover {
+  cursor: pointer;
+}
+
+footer .fo1 .fa .fa_p3 {
+  margin-bottom: 34px;
+  height: 45px;
+}
+
+footer .fo1 .fa .fa_p3 input {
+  width: 139px;
+  height: 27px;
+  color: #000;
+}
+
+footer .fo1 .fa .fa_p3 button {
+  width: 55px;
+  height: 27px;
+  border: 0 none;
+  background: #939393;
+  color: #fff;
+}
+
+footer .fo1 .fa .fa_p3 button:hover {
+  cursor: pointer;
+}
+
+footer .fo1 .fa .fa_p3 span {
+  font-size: 12px;
+  display: block;
+  color: #9B9B9B;
+}
+
+footer .fo1 .fb {
+  width: 883px;
+}
+
+footer .fo1 .fb .fo1_dl {
+  height: 176px;
+  border-right: 1px solid #ccc;
+  width: 125px;
+  padding: 5px 30px 0 24px;
+  background: #FCFCFC;
+}
+
+footer .fo1 .fb .fo1_dl dt {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+footer .fo1 .fb .fo1_dl dt a {
+  color: #000;
+}
+
+footer .fo1 .fb .fo1_dl dd {
+  font-size: 8px;
+  line-height: 22px;
+}
+
+footer .fo1 .fb .fo1_dl dd a {
+  color: #666666;
+}
+
+footer .fo1 .fb .fo1_img {
+  display: block;
+  width: 127px;
+  height: 176px;
+  float: left;
+  background: url("../img/fo2.png") no-repeat 0 0;
+}
+
+footer .fo2 {
+  background: #fff;
+}
+
+footer .fo2 .container {
+  border-bottom: 1px solid #ccc;
+}
+
+footer .fo2 p {
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #44446C;
+  font-size: 15px;
+}

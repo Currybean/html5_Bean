@@ -1,0 +1,56 @@
+.banner { 
+    width: 100%;
+    position: relative; overflow:hidden; text-align: center;
+}
+.banner ul{padding:0;}
+.banner ul li { float: left;height: 400px; }
+#b1 { width: 100%;}
+#b1 .dots { position: absolute; left:240px; top: 370px;height: 20px;}
+#b1 .dots li { 
+    background: #E8E8E8;
+    display: inline-block; 
+    width: 20px; 
+    height: 20px; 
+    margin: 0 6px; 
+    border: 2px solid #E8E8E8;
+    line-height: 16px; 
+    border-radius: 50%; 
+    cursor: pointer;  
+    color:#666666;
+}
+#b1 .dots li.active { 
+    background: #00B5FF;
+    border: 2px solid #00B5FF; 
+}
+#b1 ul li p{
+    margin: 0;
+    position:absolute;
+    left:0;
+    top: 0;
+    width: 249px;
+    height: 400px;
+    background: #B5E2FF;
+    padding-top:10px;
+}
+#b1 ul li .ban1_bp{ 
+    position:absolute;
+    left:1006px;
+    top: 0;
+    width:260px;
+}
+
+#b1 ul li .ban2_ap{ 
+    position:absolute;
+    left:1263px;
+    top: 0;
+    background: #FEEAF3;
+}
+#b1 ul li .ban2_bp{ 
+    position:absolute;
+    left:2277px;
+    top: 0;
+    background: #FEEAF3;
+}
+#b1 ul li .ban1_bp img,#b1 ul li .ban2_bp img{
+    float:left;
+}
