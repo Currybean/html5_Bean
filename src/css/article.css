@@ -1,0 +1,43 @@
+article .container {
+  height: 220px;
+  margin-top: 18px;
+}
+
+article .container .ar_p1 {
+  height: 32px;
+  background: #fff;
+  padding-left: 242px;
+  line-height: 19px;
+}
+
+article .container .ar_p1 i {
+  margin-top: 0px;
+  margin-right: 6px;
+  display: block;
+  width: 19px;
+  height: 19px;
+  background: url("../img/tishi.gif");
+}
+
+article .container .ar_p1 a {
+  float: left;
+  font-size: 14px;
+  color: #666;
+}
+
+article .container .ar_p1 a:hover {
+  text-decoration: underline;
+}
+
+article .container .ar_p2 {
+  border: 0 none;
+  height: 188px;
+  background: #fff;
+  padding-left: 242px;
+}
+
+article .container .ar_p2 a {
+  float: left;
+  display: block;
+  margin-right: 6px;
+}
