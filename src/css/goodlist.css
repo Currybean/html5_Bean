@@ -1,0 +1,167 @@
+#goodlist {
+  height: 3330px;
+}
+
+#goodlist .container {
+  height: 100%;
+}
+
+#goodlist .container .box1 {
+  width: 1172px;
+  background: #ff8888;
+  margin: 15px auto;
+  border-bottom: 8px solid #e5e5e5;
+  padding: 30px 14px;
+  display: table;
+}
+
+#goodlist .container .box1 .dudl {
+  width: 218px;
+  height: 290px;
+  margin-right: 13px;
+  background: #fff;
+  padding-left: 6px;
+  float: left;
+  font-size: 12px;
+}
+
+#goodlist .container .box1 .dudl:last-child {
+  margin-right: 0;
+}
+
+#goodlist .container .box1 .dudl img {
+  width: 202px;
+  height: 202px;
+}
+
+#goodlist .container .box1 .dudl .abword {
+  background: #d60000;
+  width: 204px;
+  height: 22px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0 6px;
+  font-size: 12px;
+  padding: 0;
+}
+
+#goodlist .container .box1 .dudl .goodname {
+  line-height: 18px;
+  height: 36px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+#goodlist .container .box1 .dudl .goodname a {
+  color: #000;
+}
+
+#goodlist .container .box2 {
+  height: 2816px;
+  padding: 30px 14px;
+  border: 1px solid #ccc;
+}
+
+#goodlist .container .box2 .bo_ul {
+  width: 232px;
+  height: 1366px;
+  float: left;
+  border: 1px dotted #ccc;
+}
+
+#goodlist .container .box2 .bo_ul img {
+  width: 229px;
+}
+
+#goodlist .container .box2 .bo_ul h4 {
+  padding-top: 14px;
+  padding-left: 21px;
+  height: 36px;
+  font-size: 14px;
+  color: #fff;
+  background: #ff8888;
+}
+
+#goodlist .container .box2 .bo_ul ul {
+  height: 420px;
+}
+
+#goodlist .container .box2 .bo_ul ul li {
+  border-bottom: 1px dotted #ccc;
+}
+
+#goodlist .container .box2 .bo_ul ul li a {
+  padding-left: 21px;
+  display: block;
+  width: 208px;
+  height: 34px;
+  line-height: 43px;
+  font-size: 12px;
+  font-style: bold;
+  color: #000;
+}
+
+#goodlist .container .box2 .bo_ul ul li a:hover {
+  text-decoration: underline;
+}
+
+#goodlist .container .box2 .bo_good .filter {
+  margin-top: 10px;
+  width: 922px;
+  height: 26px;
+}
+
+#goodlist .container .box2 .bo_good .filter dl {
+  float: left;
+  line-height: 26px;
+  color: #000;
+}
+
+#goodlist .container .box2 .bo_good .filter dl dt {
+  float: left;
+  font-size: 12px;
+  color: #000;
+}
+
+#goodlist .container .box2 .bo_good .filter dl dd {
+  height: 24px;
+  border: 1px solid #CECBCE;
+  background: #f6f6f6;
+  border: 1px solid #cecbce;
+  margin-right: 5px;
+  line-height: 24px;
+  padding: 0 10px;
+  float: left;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#goodlist .container .box2 .bo_good .filter dl .curr {
+  background: #fc1c5a;
+  border: 1px solid #fc1c5a;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  height: 24px;
+}
+
+#goodlist .container .box2 .bo_good .filter dl .curr a {
+  color: #000;
+  line-height: 24px;
+}
+
+#goodlist .container .box2 .bo_good .goods {
+  width: 922px;
+  height: 2752px;
+  border: 1px solid #ccc;
+}
+
+#goodlist .container .box2 .bo_good .goods dl {
+  float: left;
+  width: 230px;
+  height: 335px;
+  background: #ccc;
+  padding-left: 15px;
+}

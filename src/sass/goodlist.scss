@@ -1,0 +1,150 @@
+#goodlist{
+    height: 3330px;
+    .container{
+        height: 100%;
+    .box1{
+       width: 1172px;
+        background: #ff8888;
+        margin: 15px auto;
+        border-bottom: 8px solid #e5e5e5;
+        padding: 30px 14px;
+        display: table;
+
+        .dudl{
+            &:last-child{
+                 margin-right: 0;
+            }
+            width: 218px;
+            height: 290px;
+            margin-right: 13px;
+            background: #fff;
+            padding-left:6px;
+            float: left;
+            font-size: 12px;
+            img{
+            width: 202px;
+            height: 202px;
+            }
+            .abword{
+            background: #d60000;
+            width: 204px;
+            height: 22px;
+            line-height: 22px;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px 0 6px;
+              font-size: 12px;
+                  padding: 0;
+            }
+            .goodname{
+                line-height: 18px;
+                height: 36px;
+                overflow: hidden;
+                font-size: 12px;
+                a{
+                    color:#000;
+                }
+            }
+        }
+    }   
+    
+.box2{
+        height: 2816px;
+        padding:30px 14px;
+        border:1px solid #ccc;
+        .bo_ul{
+            width: 232px;
+            height: 1366px;
+            float:left;
+            border:1px dotted #ccc;
+            img{
+                width: 229px;
+            }
+            h4{
+               padding-top: 14px;
+               padding-left: 21px;
+                height: 36px;
+                font-size: 14px;
+                color:#fff;
+                background: #ff8888;
+            }
+            ul{
+                height: 420px;
+                li{
+                 border-bottom:1px dotted #ccc;
+                 a{
+                    padding-left: 21px;
+                    display:block;
+                    width: 208px;
+                    height: 34px;
+                    line-height: 43px;
+                    font-size: 12px;
+                    font-style: bold;
+                    color:#000;
+                    &:hover{text-decoration:underline;}
+                 }
+            }
+           }
+        }
+    .bo_good{
+        .filter{
+            margin-top: 10px;
+            width: 922px;
+            height: 26px;
+
+            dl{
+                float:left;
+                line-height: 26px;
+                color:#000;
+                dt{
+                float:left;
+                font-size: 12px;
+                color:#000;
+                }
+                dd{
+                        height: 24px;
+                        border: 1px solid #CECBCE;
+                        background: #f6f6f6;
+                        border: 1px solid #cecbce;
+                        margin-right: 5px;
+                        line-height: 24px;
+                        padding: 0 10px;
+                        float:left;
+                        cursor: pointer;
+                        font-size: 12px;
+                    }
+                .curr{
+                    background: #fc1c5a;
+                    border: 1px solid #fc1c5a;
+                    color: #fff;
+                    font-weight: bold;
+                    position: relative;
+                    height: 24px;
+                    a{
+                        color:#000;
+                        line-height: 24px;
+                    }
+                    
+                }   
+            }
+        }
+        .goods{
+            width: 922px;
+            height: 2752px;
+            border:1px solid #ccc;
+         dl{
+            float:left;
+            width: 230px;
+            height: 335px;
+            background: #ccc;
+            padding-left:15px;
+
+         }
+        }   
+    }
+}
+
+
+    }
+}

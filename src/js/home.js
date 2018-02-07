@@ -1,5 +1,22 @@
 require(['config'],function(){
     require(['jquery','slider'],function(){
+      //导入用户名
+      if(location.search){
+          var user=location.search.slice(1).split('=');
+          console.log()
+          var _user=user[1];
+       $('header').find('span')[0].innerText='下午好，'+ _user;
+       $('header a').filter(function(idx){return idx<2}).hide()
+       var $a=$('<a href="#"></a>').text('[退出登录]').css({
+        color:'red',
+        marginLeft:'10px',
+       });
+       $('header span').eq(0).after($a);
+      }
+      $('header a').eq(0).on('click',function(){
+        $(this).hide().filter(function(idx){return 1<idx<3}).show();
+        location.href='index.html';
+      })
     //轮播图
         var unslider1 = $('#b1').unslider({
             dots: true,
@@ -9,6 +26,7 @@ require(['config'],function(){
 
     //hover出现二维码
       $('header .h_box .container img').on('mouseenter',function(){
+              console.log(222)
                var $qrbox=$('<div class="qrbox"></div>')
                 .css({
                   position:'absolute',
@@ -78,33 +96,32 @@ require(['config'],function(){
     })
 
     //吸顶菜单
-    $(window).on('scroll',function(){
-            if($(window).scrollTop()>802){
-                $('header .h_nav').css({
-                    position:'fixed',
-                    top:'0',
-                    zIndex:1000
-                }).find('#h1_nav2').hide();
-                $('header .h_nav').on('mouseenter',function(){
-                    $(this).find('#h1_nav2').show();
-                }).on('mouseleave',function(){
-                    $(this).find('#h1_nav2').hide();
-                })
-            }
-
-            else if($(window).scrollTop()<=802){
-                $('header .h_nav').css({
-                     position:'',
-                     top:'',
-                }).find('#h1_nav2').show();
-                 $('header .h_nav').on('mouseenter',function(){
-                    $(this).find('#h1_nav2').show();
-                }).on('mouseleave',function(){
-                    $(this).find('#h1_nav2').show();
+              
+              $(window).on('scroll',function(){
+                    if($(window).scrollTop()<802){
+                        $('header .h_nav').css({
+                            position:'',
+                            top:'',
+                        }).find('#h1_nav2').show();
+                       return;
+                    }
+                    else if($(window).scrollTop()>802){
+                        $('header .h_nav').css({
+                             position:'fixed',
+                             top:'0',
+                            zIndex:1000
+                        }).find('#h1_nav2').hide();
+                        }
                 })
 
-            }
-    }) 
+                $('header .h_nav').on('mouseenter','h1',function(){
+                    $(this).find('#h1_nav2').stop(true,true).slideDown(500);
+                    }).on('mouseleave','h1',function(){
+                      if($(window).scrollTop()<802){
+                      return;
+                      }
+                    $(this).find('#h1_nav2').stop(true,true).slideUp(500);
+                })
   
     //load Article
     $('article').load('../html/article.html');
@@ -114,7 +131,7 @@ require(['config'],function(){
       //tap标签切换
         var $tap=$('.container #tap')
        var $tapbox=$('.container #tap_box')
-       console.log( $tap.children().eq(0))
+
        $tap.children().eq(0).addClass('lgg').children('i').show();
        $tapbox.children().eq(0).siblings().hide();
        $tap.on('mouseenter','h4',function(){

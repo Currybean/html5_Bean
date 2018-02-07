@@ -1,0 +1,419 @@
+@charset "UTF-8";
+#zhuche {
+  height: 570px;
+  overflow: hidden;
+}
+
+#zhuche .log {
+  margin-top: 12px;
+  margin: 12px auto;
+  width: 980px;
+  height: 515px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+
+#zhuche .log i {
+  position: absolute;
+  left: 50%;
+  display: block;
+  height: 100%;
+  width: 3px;
+  background: url(../img/line.png) no-repeat 0 0;
+  transform: translate(-50%, 0);
+}
+
+#zhuche .log .login {
+  width: 475px;
+  height: 453px;
+  padding: 0 10px;
+}
+
+#zhuche .log .login .logjpg {
+  margin-top: 40px;
+  width: 439px;
+  height: 43px;
+  background: url("../img/reg-bg.png") no-repeat -162px -152px;
+  margin-bottom: 37px;
+}
+
+#zhuche .log .login .lg_user {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+#zhuche .log .login .lg_user p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  margin-right: 6px;
+}
+
+#zhuche .log .login .lg_user input {
+  width: 200px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+#zhuche .log .login .lg_user .tip_user {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .login .lg_paw {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+#zhuche .log .login .lg_paw p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  margin-right: 6px;
+}
+
+#zhuche .log .login .lg_paw input {
+  width: 200px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+#zhuche .log .login .lg_paw a {
+  color: #00B6F2;
+  font-family: arial,宋体;
+  font-size: 12px;
+  text-align: left;
+}
+
+#zhuche .log .login .lg_paw .tip_paw {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .login .vcode {
+  height: 55px;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+#zhuche .log .login .vcode p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  font-family: arial,宋体;
+  margin-right: 6px;
+}
+
+#zhuche .log .login .vcode input {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  border: 1px solid #7f9db9;
+  padding: 2px;
+  width: 50px;
+  font-size: 12px;
+  margin: 0;
+}
+
+#zhuche .log .login .vcode span {
+  font-size: 18px;
+  color: green;
+  vertical-align: top;
+  border: 0 none;
+  text-align: left;
+}
+
+#zhuche .log .login .vcode .tip_vo {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .login button {
+  width: 90px;
+  height: 29px;
+  border: 1px solid #fff;
+  background: #02B7EF;
+  line-height: 29px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#zhuche .log .login button:hover {
+  cursor: pointer;
+}
+
+#zhuche .log .login .hezuo {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #666;
+  margin-left: 72px;
+  margin-top: 20px;
+}
+
+#zhuche .log .login .hezuo1 {
+  width: 100%;
+  height: 30px;
+  margin-left: 72px;
+}
+
+#zhuche .log .login .hezuo1 img {
+  vertical-align: top;
+}
+
+#zhuche .log .reg {
+  width: 475px;
+  height: 453px;
+  padding: 0 10px;
+}
+
+#zhuche .log .reg .regjpg {
+  margin-top: 40px;
+  width: 439px;
+  height: 43px;
+  background: url("../img/reg-bg.png") no-repeat -163px -196px;
+  margin-bottom: 37px;
+}
+
+#zhuche .log .reg .rg_user {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+#zhuche .log .reg .rg_user p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  margin-right: 6px;
+}
+
+#zhuche .log .reg .rg_user input {
+  width: 200px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+#zhuche .log .reg .rg_user .tip_reguser {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .reg .rg_paw {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+#zhuche .log .reg .rg_paw p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  margin-right: 6px;
+}
+
+#zhuche .log .reg .rg_paw input {
+  width: 200px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+#zhuche .log .reg .rg_paw .tip_regpaw {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .reg .rg_rpaw {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+#zhuche .log .reg .rg_rpaw p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  margin-right: 6px;
+}
+
+#zhuche .log .reg .rg_rpaw input {
+  width: 200px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+#zhuche .log .reg .rg_rpaw .tip_regrpaw {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .reg .rg_email {
+  margin-left: 50px;
+  height: 55px;
+  font-size: 12px;
+}
+
+#zhuche .log .reg .rg_email p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  margin-right: 6px;
+}
+
+#zhuche .log .reg .rg_email input {
+  width: 200px;
+  padding: 2px;
+  border: 1px solid #ccc;
+}
+
+#zhuche .log .reg .rg_email .tip_email {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .reg .regvcode {
+  height: 55px;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+#zhuche .log .reg .regvcode p {
+  width: 60px;
+  height: 25px;
+  line-height: 23px;
+  text-align: right;
+  float: left;
+  font-family: arial,宋体;
+  margin-right: 6px;
+}
+
+#zhuche .log .reg .regvcode input {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  border: 1px solid #7f9db9;
+  padding: 2px;
+  width: 50px;
+  font-size: 12px;
+  margin: 0;
+}
+
+#zhuche .log .reg .regvcode span {
+  font-size: 16px;
+  color: green;
+  vertical-align: top;
+  border: 0 none;
+  text-align: left;
+}
+
+#zhuche .log .reg .regvcode .tip_regvo {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .reg .xieyi {
+  height: 55px;
+  margin-left: 50px;
+  font-size: 12px;
+}
+
+#zhuche .log .reg .xieyi p {
+  width: 60px;
+  height: 25px;
+  float: left;
+}
+
+#zhuche .log .reg .xieyi a {
+  color: #02B7EF;
+}
+
+#zhuche .log .reg .xieyi .tip {
+  height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  padding-left: 65px;
+  position: relative;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  white-space: normal;
+  color: red;
+}
+
+#zhuche .log .reg button {
+  width: 90px;
+  height: 29px;
+  border: 1px solid #fff;
+  background: #02B7EF;
+  line-height: 29px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#zhuche .log .reg button:hover {
+  cursor: pointer;
+}

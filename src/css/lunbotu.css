@@ -5,7 +5,7 @@
 .banner ul{padding:0;}
 .banner ul li { float: left;height: 400px; }
 #b1 { width: 100%;}
-#b1 .dots { position: absolute; left:240px; top: 370px;height: 20px;}
+#b1 .dots { position: absolute; left:268px; top: 370px;height: 20px;}
 #b1 .dots li { 
     background: #E8E8E8;
     display: inline-block; 
