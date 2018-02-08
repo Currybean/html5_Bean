@@ -1,0 +1,143 @@
+#detail{
+    .container{
+    .part1{
+            width: 980px;
+            height: 480px;
+            margin: 0 auto;
+            h4{
+                line-height: 34px;
+                color: #999;
+                width: 980px;
+                height: 34px;
+                margin-top: 15px;
+                border-bottom: 2px solid #78b5f4;
+                font-size: 12px;
+                 margin-bottom: 15px;
+                a{
+                    margin-right: 12px;
+                    color: #000;
+                    &:hover{
+                    text-decoration:underline;
+                    color:red;
+                    }
+                }
+            }
+            .parL{
+                width: 457px;
+                height: 407px;
+                ul{
+                    width: 72px;
+                    li{
+                        width: 74px;
+                        height: 74px;
+                        float:left;
+                       border:1px solid #ccc;
+                        margin-bottom: 5px;
+                        img{
+                            width: 72px;
+                            height: 72px;
+                        }
+                    }
+                }
+                .bigpic{
+                        float:left;
+                        margin-left: 10px;
+                        position:relative;
+                        margin-left:22px;
+                        width: 350px;
+                        height: 350px;
+                       
+                        img{
+                            width:350px;
+                            height: 350px;
+                        }
+                }  
+            }
+            h2{
+                height: 60px;
+                font-size: 16px;
+                border-bottom:1px dotted #ccc;
+            }
+            .chuan{
+                font-size: 14px;
+                border-bottom:1px dotted #ccc;
+                padding:10px;
+                span{
+                    height: 30px;
+                    line-height: 30px;
+                    display:block;
+                    strong{
+                        color:red;
+                        margin-left: 5px;
+                    }
+                    &:last-child{
+                        strong{
+                        font-size: 17px;
+                        color:#D11010;
+                        }
+                        
+                    }
+
+                }
+            }
+            .buchuan{
+                font-size: 14px;
+                span{
+                     height: 30px;
+                    line-height: 30px;
+                    display:block;
+                    overflow:hidden;
+                    strong{
+                        color:#D93600;
+                    }
+                   a{
+                        color:#6963A7;
+                        &:hover{
+                            text-decoration:underline;
+                            color:orange;
+                        }
+                   }
+                }
+            }
+            .addbtn{
+                float:right;
+                width: 523px;
+                height: 74px;
+                background: #FFFCF3;
+                overflow:hidden;
+                p{
+                    margin-top: 32px;
+                    margin-left: 22px;
+                    float:left;
+                    input{
+                        width: 32px;
+                        height: 20px;
+                        margin:0 4px;
+                    }
+                    img:hover{
+                        cursor:pointer;
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+
+                }
+                 a{     
+                     margin-top:24px;
+                     margin-left: 20px;
+                        display:block;
+                        float:left;
+                        height: 38px;
+                        background: #ccc;
+                    &:hover{
+                        cursor:pointer;
+                    }
+                 }
+            }
+        }
+    .part2{
+    
+    }
+
+    }
+}

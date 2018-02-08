@@ -1,9 +1,10 @@
 require.config({
 
     paths:{
-        'jquery':'../lib/jquery-3.2.1.min',
+        'jquery':'../lib/jquery-3.2.1',
         'zoom':'../lib/jquery.gdsZoom/jquery.gdsZoom',
-        'slider':'../lib/unslider.min'
+        'slider':'../lib/unslider.min',
+        'zoomy':'../lib/zoomy/jquery.zoomy0.5'
     },
 
     shim:{
@@ -11,5 +12,6 @@ require.config({
         'zoom':['jquery'],
         // 'common':['jquery']
         'slider':['jquery'],
+        'zoomy':['jquery'],
     }
 });

@@ -39,6 +39,7 @@
 				});
 
 				// 大图位置
+				console.log(111)
 				var left,top;
 				if(opt.position === 'right'){
 					left = $small.offset().left + $small.outerWidth() + opt.gap;

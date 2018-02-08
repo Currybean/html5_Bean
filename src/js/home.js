@@ -224,7 +224,31 @@ require(['config'],function(){
                })
              })
     })
+               //返回顶部
+        $('<a href="#" id="curry">点击回到顶部</a>').css({
+                height:'92px',
+                width:'46px',
+                lineHeight:'29px',
+                position:'fixed',
+                top:'540px',
+                right:'0px',
+                border:'1px solid #ccc',
+                background:'#ccc',
+                fontSize:'16px',
+                color:'blue',
+                paddingLeft:'5px',
+        }).appendTo('body').hide();
+        var $back=$('body #curry');
+        $(window).on('scroll',function(){
+                    if($(window).scrollTop()<802){
+                       $back.hide();
+                    }
+                    else{
+                      $back.show();
 
+                    }
+                })
+        
 
 
   })

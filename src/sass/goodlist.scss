@@ -92,7 +92,7 @@
             margin-top: 10px;
             width: 922px;
             height: 26px;
-
+            
             dl{
                 float:left;
                 line-height: 26px;
@@ -122,24 +122,88 @@
                     position: relative;
                     height: 24px;
                     a{
-                        color:#000;
+                        color:#fff;
                         line-height: 24px;
                     }
                     
                 }   
             }
         }
+        #boxpage{
+            width: 500px;
+            height: 30px;
+            position:absolute;
+            top:3410px;
+            right:56px;
+            .page{
+                  display:block;
+                  float:right;
+                  width:27px;
+                  height:27px;
+                  line-height:27px;
+                  border:1px solid #ccc; 
+                  text-align:center;
+                  margin-right: 16px;
+                  color: #02a3f0;
+                  &:hover{
+                    cursor:pointer;
+                  }
+                &.active{
+                    background: #02a3f0;
+                    color:#fff;
+                }
+            }
+        }
+
         .goods{
             width: 922px;
-            height: 2752px;
+            height: 2749px;
             border:1px solid #ccc;
+            border-bottom:0 none;
+            
          dl{
             float:left;
             width: 230px;
             height: 335px;
-            background: #ccc;
             padding-left:15px;
-
+            padding-top:20px;
+            &:hover{
+                background: #DBDBEA;
+            }
+            a{
+                font-size: 12px;
+                &:nth-child(2){
+                    display:block;
+                  color:#666;
+                  height: 37px;
+                }
+                &:nth-child(2):hover{
+                   color:red;
+                   text-decoration:underline;
+                }
+            }
+            dd{
+                margin-top: 6px;
+                font-size: 16px;
+                span{
+                    margin-right: 6px;
+                    color:red;
+                    &:last-child{
+                        font-size: 12px;
+                    }
+                }
+            }
+            button{
+                margin-top: 8px;
+                width: 90px;
+                height: 24px;
+                &:hover{
+                    cursor:pointer;
+                }
+                border:none;
+                color:#fff;
+                background: #FC1C5A;
+            }
          }
         }   
     }

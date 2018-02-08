@@ -148,20 +148,96 @@
 }
 
 #goodlist .container .box2 .bo_good .filter dl .curr a {
-  color: #000;
+  color: #fff;
   line-height: 24px;
+}
+
+#goodlist .container .box2 .bo_good #boxpage {
+  width: 500px;
+  height: 30px;
+  position: absolute;
+  top: 3410px;
+  right: 56px;
+}
+
+#goodlist .container .box2 .bo_good #boxpage .page {
+  display: block;
+  float: right;
+  width: 27px;
+  height: 27px;
+  line-height: 27px;
+  border: 1px solid #ccc;
+  text-align: center;
+  margin-right: 16px;
+  color: #02a3f0;
+}
+
+#goodlist .container .box2 .bo_good #boxpage .page:hover {
+  cursor: pointer;
+}
+
+#goodlist .container .box2 .bo_good #boxpage .page.active {
+  background: #02a3f0;
+  color: #fff;
 }
 
 #goodlist .container .box2 .bo_good .goods {
   width: 922px;
-  height: 2752px;
+  height: 2749px;
   border: 1px solid #ccc;
+  border-bottom: 0 none;
 }
 
 #goodlist .container .box2 .bo_good .goods dl {
   float: left;
   width: 230px;
   height: 335px;
-  background: #ccc;
   padding-left: 15px;
+  padding-top: 20px;
+}
+
+#goodlist .container .box2 .bo_good .goods dl:hover {
+  background: #DBDBEA;
+}
+
+#goodlist .container .box2 .bo_good .goods dl a {
+  font-size: 12px;
+}
+
+#goodlist .container .box2 .bo_good .goods dl a:nth-child(2) {
+  display: block;
+  color: #666;
+  height: 37px;
+}
+
+#goodlist .container .box2 .bo_good .goods dl a:nth-child(2):hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#goodlist .container .box2 .bo_good .goods dl dd {
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+#goodlist .container .box2 .bo_good .goods dl dd span {
+  margin-right: 6px;
+  color: red;
+}
+
+#goodlist .container .box2 .bo_good .goods dl dd span:last-child {
+  font-size: 12px;
+}
+
+#goodlist .container .box2 .bo_good .goods dl button {
+  margin-top: 8px;
+  width: 90px;
+  height: 24px;
+  border: none;
+  color: #fff;
+  background: #FC1C5A;
+}
+
+#goodlist .container .box2 .bo_good .goods dl button:hover {
+  cursor: pointer;
 }

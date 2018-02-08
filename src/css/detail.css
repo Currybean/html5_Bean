@@ -1,0 +1,155 @@
+#detail .container .part1 {
+  width: 980px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+#detail .container .part1 h4 {
+  line-height: 34px;
+  color: #999;
+  width: 980px;
+  height: 34px;
+  margin-top: 15px;
+  border-bottom: 2px solid #78b5f4;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+#detail .container .part1 h4 a {
+  margin-right: 12px;
+  color: #000;
+}
+
+#detail .container .part1 h4 a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+#detail .container .part1 .parL {
+  width: 457px;
+  height: 407px;
+}
+
+#detail .container .part1 .parL ul {
+  width: 72px;
+}
+
+#detail .container .part1 .parL ul li {
+  width: 74px;
+  height: 74px;
+  float: left;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+#detail .container .part1 .parL ul li img {
+  width: 72px;
+  height: 72px;
+}
+
+#detail .container .part1 .parL .bigpic {
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  margin-left: 22px;
+  width: 350px;
+  height: 350px;
+}
+
+#detail .container .part1 .parL .bigpic img {
+  width: 350px;
+  height: 350px;
+}
+
+#detail .container .part1 h2 {
+  height: 60px;
+  font-size: 16px;
+  border-bottom: 1px dotted #ccc;
+}
+
+#detail .container .part1 .chuan {
+  font-size: 14px;
+  border-bottom: 1px dotted #ccc;
+  padding: 10px;
+}
+
+#detail .container .part1 .chuan span {
+  height: 30px;
+  line-height: 30px;
+  display: block;
+}
+
+#detail .container .part1 .chuan span strong {
+  color: red;
+  margin-left: 5px;
+}
+
+#detail .container .part1 .chuan span:last-child strong {
+  font-size: 17px;
+  color: #D11010;
+}
+
+#detail .container .part1 .buchuan {
+  font-size: 14px;
+}
+
+#detail .container .part1 .buchuan span {
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  overflow: hidden;
+}
+
+#detail .container .part1 .buchuan span strong {
+  color: #D93600;
+}
+
+#detail .container .part1 .buchuan span a {
+  color: #6963A7;
+}
+
+#detail .container .part1 .buchuan span a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+#detail .container .part1 .addbtn {
+  float: right;
+  width: 523px;
+  height: 74px;
+  background: #FFFCF3;
+  overflow: hidden;
+}
+
+#detail .container .part1 .addbtn p {
+  margin-top: 32px;
+  margin-left: 22px;
+  float: left;
+}
+
+#detail .container .part1 .addbtn p input {
+  width: 32px;
+  height: 20px;
+  margin: 0 4px;
+}
+
+#detail .container .part1 .addbtn p img:hover {
+  cursor: pointer;
+}
+
+#detail .container .part1 .addbtn p span {
+  font-size: 12px;
+}
+
+#detail .container .part1 .addbtn a {
+  margin-top: 24px;
+  margin-left: 20px;
+  display: block;
+  float: left;
+  height: 38px;
+  background: #ccc;
+}
+
+#detail .container .part1 .addbtn a:hover {
+  cursor: pointer;
+}
