@@ -50,6 +50,28 @@ require(['config'],function(){
                     })  
       })  
 
+      //请求购物车数据库，把数量到如显示出来
+        $.ajax({
+          url:'../api/ouputcar.php',
+          dataType:'json',
+          success:function(num){
+              var number=0;
+              num.forEach(function(item){
+                 number+=item.qty*1;
+            })
+                var $nb=$('header .h_box i strong');
+               $nb.text(number);
+          }
+        })
+        
+
+
+
+
+
+
+
+
     //我的账户二级导航
     $('.hp1 .container .fr li:first').on('mouseenter',function(){
            $(this).css({
@@ -94,9 +116,7 @@ require(['config'],function(){
                 borderRight:'',
                 })
     })
-
     //吸顶菜单
-              
               $(window).on('scroll',function(){
                     if($(window).scrollTop()<802){
                         $('header .h_nav').css({
@@ -136,7 +156,7 @@ require(['config'],function(){
        $tapbox.children().eq(0).siblings().hide();
        $tap.on('mouseenter','h4',function(){
             var idx=$(this).index();
-        $tapbox.children().eq(idx).show().siblings().hide();
+        $tapbox.children().eq(idx).stop(true,true).slideDown().siblings().stop(true,true).slideUp();
          $tap.children().eq(idx).addClass('lgg').children('i').show();
           $tap.children().eq(idx).siblings().removeClass('lgg').children('i').hide();
 
@@ -159,7 +179,7 @@ require(['config'],function(){
              })
            $shouli.on('mouseenter',function(){
               var sidx=$(this).index();
-              $shouli.eq(sidx).children('a').show()
+              $shouli.eq(sidx).children('a').slideDown()
               $shouli.eq(sidx).css({
               height:'259px'
              })
@@ -187,7 +207,7 @@ require(['config'],function(){
              })
            $shouli1.on('mouseenter',function(){
               var sidx=$(this).index();
-              $shouli1.eq(sidx).children('a').show()
+              $shouli1.eq(sidx).children('a').slideDown()
               $shouli1.eq(sidx).css({
               height:'259px'
              })
@@ -214,7 +234,7 @@ require(['config'],function(){
                })
              $shouli2.on('mouseenter',function(){
                 var sidx=$(this).index();
-                $shouli2.eq(sidx).children('a').show()
+                $shouli2.eq(sidx).children('a').slideDown()
                 $shouli2.eq(sidx).css({
                 height:'259px'
                })

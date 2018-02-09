@@ -14,7 +14,7 @@
     
     if($res->num_rows == 0){
 
-    $sql = "insert into carlist(id,name,price,count,qty,creatime) values('$dl_id','$dl_name','$dl_price','$dl_count','$dl_qty',null)";
+    $sql = "insert into carlist(id,name,price,count,qty) values('$dl_id','$dl_name','$dl_price','$dl_count','$dl_qty')";
 
     $data1 = $conn->query($sql);
 

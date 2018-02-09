@@ -100,6 +100,10 @@ header{
             z-index:1000;
 
         a{
+            display:block;
+            margin-left: 20px;
+            height: 43px;
+            width: 170px;
             font-style:normal;
         strong{margin:0 3px;color:red;} 
         }
@@ -120,7 +124,7 @@ header{
         &:hover{
                 background: url('../img/detail_r4_c1.gif') no-repeat;
             }   
-        &:hover span{display:block;}
+        &:hover span{display:none;}
         }
         }
     }

@@ -132,6 +132,10 @@ header .h_box .container i {
 }
 
 header .h_box .container i a {
+  display: block;
+  margin-left: 20px;
+  height: 43px;
+  width: 170px;
   font-style: normal;
 }
 
@@ -160,7 +164,7 @@ header .h_box .container i:hover {
 }
 
 header .h_box .container i:hover span {
-  display: block;
+  display: none;
 }
 
 header .h_nav {

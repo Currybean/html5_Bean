@@ -1,0 +1,68 @@
+#carlist {
+  height: 900px;
+}
+
+#carlist .container {
+  width: 1000px;
+  height: 900px;
+  border: 1px solid #ccc;
+}
+
+#carlist .container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  border-bottom: 1px dotted #ccc;
+}
+
+#carlist .container table th {
+  height: 40px;
+  background: #4DA6FF;
+  font-size: 12px;
+  text-align: center;
+}
+
+#carlist .container table td {
+  text-align: center;
+  height: 40px;
+  font-size: 14px;
+}
+
+#carlist .container table td a {
+  color: #000;
+}
+
+#carlist .container table td a:hover {
+  text-decoration: underline;
+}
+
+#carlist .container table td.redcolor {
+  color: red;
+}
+
+#carlist .container table td i {
+  font-style: normal;
+}
+
+#carlist .container table td:last-child:hover i {
+  cursor: pointer;
+  text-decoration: underline;
+  color: orange;
+}
+
+#carlist .container table td input {
+  width: 32px;
+  height: 22px;
+}
+
+#carlist .container h4 {
+  font-size: 14px;
+  padding-right: 6px;
+  margin-top: 12px;
+  text-align: right;
+}
+
+#carlist .container h4 span {
+  font-size: 18px;
+  color: red;
+}

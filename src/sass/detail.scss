@@ -57,6 +57,14 @@
                 height: 60px;
                 font-size: 16px;
                 border-bottom:1px dotted #ccc;
+                line-height: 60px;
+                a{
+                    color:#000;
+                }
+                &:hover a{
+                    text-decoration:underline;
+                    color:red;
+                }
             }
             .chuan{
                 font-size: 14px;

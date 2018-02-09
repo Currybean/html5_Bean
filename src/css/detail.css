@@ -65,6 +65,16 @@
   height: 60px;
   font-size: 16px;
   border-bottom: 1px dotted #ccc;
+  line-height: 60px;
+}
+
+#detail .container .part1 h2 a {
+  color: #000;
+}
+
+#detail .container .part1 h2:hover a {
+  text-decoration: underline;
+  color: red;
 }
 
 #detail .container .part1 .chuan {

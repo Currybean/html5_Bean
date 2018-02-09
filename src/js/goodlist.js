@@ -99,6 +99,21 @@ require(['config'],function(){
                     }).on('mouseleave','h1',function(){
                     $(this).find('#h1_nav2').stop(true,true).slideUp(500);
                 })
+                //请求购物车数据库，把数量到如显示出来
+                    $.ajax({
+                      url:'../api/ouputcar.php',
+                      dataType:'json',
+                      success:function(num){
+                          var number=0;
+                          num.forEach(function(item){
+                             number+=item.qty*1;
+                        })
+                            var $nb=$('header .h_box i strong');
+                           $nb.text(number);
+                      }
+                    })
+
+
         });
         //load 尾部
         $('footer').load('../html/footer.html',function(){
@@ -376,7 +391,6 @@ require(['config'],function(){
                  var $img=$(this).closest('dl').find('img');
                  var $copyImg=$img.clone();
                  var $car=$('header .h_box i');
-                 console.log($car);
                  $copyImg.appendTo('body').css({
                   position:'absolute',
                   top:$img.offset().top+220+'px',
@@ -389,13 +403,30 @@ require(['config'],function(){
                   opacity:0.2,
                  },2000,function(){
                   $copyImg.remove();
+                  //请求购物车数据库，把数量到如显示出来
+                     $.ajax({
+                       url:'../api/ouputcar.php',
+                       dataType:'json',
+                       success:function(num){
+                           var number=0;
+                           num.forEach(function(item){
+                              number+=item.qty*1;
+                         })
+                             var $nb=$('header .h_box i strong');
+                            $nb.text(number);
+                       }
+                     })
                  });
+                 
+
+
+
                 //添加或
                 var dlId=$(this).closest('dl').attr('id');
                 var dlName=$(this).closest('dl').children('a').eq(1).text();
                 var dlPrice=$(this).closest('dl').find('span').eq(0).text().slice(1);
                 var dlCount=$(this).closest('dl').find('span').eq(1).text();
-                var dlQty=1;
+                
                 $.ajax({
                   url: '../api/carlist.php',
                   data: {
@@ -403,7 +434,7 @@ require(['config'],function(){
                     dl_name:dlName,
                     dl_price:dlPrice,
                     dl_count:dlCount,
-                    dl_qty:dlQty,
+                    dl_qty:1,
                   },
                   success:function(car){
                     console.log(car)

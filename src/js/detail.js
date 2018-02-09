@@ -97,6 +97,24 @@ require(['config'],function(){
                     }).on('mouseleave','h1',function(){
                     $(this).find('#h1_nav2').stop(true,true).slideUp(500);
                 })
+
+                      //请求购物车数据库，把数量到如显示出来
+                     $.ajax({
+                       url:'../api/ouputcar.php',
+                       dataType:'json',
+                       success:function(num){
+                           var number=0;
+                           num.forEach(function(item){
+                              number+=item.qty*1;
+                         })
+                             var $nb=$('header .h_box i strong');
+                            $nb.text(number);
+                       }
+                     })
+
+
+
+
         });
         //load 尾部
         $('footer').load('../html/footer.html',function(){
@@ -137,7 +155,7 @@ require(['config'],function(){
                     <img src="${single.img}" data-big="../img/listbig1.png"/>
                     </div>
                 </div>
-                <h2>${single.name}</h2>
+                <h2><a href="../html/goodlist.html">${single.name}</a></h2>
                 <p class="chuan">
                 <span>英文名称: Kiehl’s“ultimate” man body scrub soap</span>
                 <span>商品创建时间：${single.creatime}</span>
@@ -217,6 +235,19 @@ require(['config'],function(){
                         opacity:0.2,
                        },2000,function(){
                         $copyImg.remove();
+                        //请求购物车数据库，把数量到如显示出来
+                     $.ajax({
+                       url:'../api/ouputcar.php',
+                       dataType:'json',
+                       success:function(num){
+                           var number=0;
+                           num.forEach(function(item){
+                              number+=item.qty*1;
+                         })
+                             var $nb=$('header .h_box i strong');
+                            $nb.text(number);
+                       }
+                     })
                        });
 
 
